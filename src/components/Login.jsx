@@ -17,7 +17,7 @@ function Login() {
     localStorage.setItem('user',email);
     setAuth(true)
     setTimeout(()=>{
-    auth && navigate('/')
+    navigate('/')
     },2000)
   };
   return (
